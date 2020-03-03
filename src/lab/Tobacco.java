@@ -3,21 +3,10 @@ package lab;
 public abstract class Tobacco {
     protected String name;
     protected double nicotine;
-    public double getNicotine() {
-        return nicotine;
-    }
 
-    public void setNicotine(double nicotine) {
+    public Tobacco(String name, double nicotine) {
+        this.name = name;
         this.nicotine = nicotine;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 }
 

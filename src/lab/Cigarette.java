@@ -2,12 +2,7 @@ package lab;
 
 public class Cigarette extends SmokingTobacco {
     protected int quantity;
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public Cigarette(String name, double nicotine, int quantity) {
+        super(name, nicotine);
     }
 }

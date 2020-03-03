@@ -1,13 +1,9 @@
 package lab;
 
-public class Kretek extends SmokingTobacco{
+public class Kretek extends SmokingTobacco {
     protected int quantity;
 
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public Kretek(String name, double nicotine, int quantity) {
+        super(name, nicotine);
     }
 }
