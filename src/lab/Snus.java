@@ -1,7 +1,9 @@
 package lab;
 
 public class Snus extends nonSmokingTobacco {
-    public Snus(String name, double nicotine) {
-        super(name, nicotine);
+    protected int weight;
+    public Snus(String name, double price, double nicotine, int weight) {
+        super(name, price, nicotine);
+        System.out.println("Название: " + name + ", цена: " + price + ", содержание никотина: " + nicotine + ", вес: " + weight);
     }
 }
