@@ -1,4 +1,4 @@
-package lab;
+package lab.Decorator;
 
 public class Delivery extends Extra {
     public Delivery(Tobachini tobachini, double price, String name){

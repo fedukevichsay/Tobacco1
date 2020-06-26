@@ -1,4 +1,6 @@
-package lab;
+package lab.Decorator;
+
+import lab.Decorator.Tobachini;
 
 public abstract class Extra implements Tobachini {
 

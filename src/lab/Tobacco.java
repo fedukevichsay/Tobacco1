@@ -1,5 +1,7 @@
 package lab;
 
+import lab.Decorator.Tobachini;
+
 public abstract class Tobacco implements Tobachini {
     protected String name;
     protected double nicotine;

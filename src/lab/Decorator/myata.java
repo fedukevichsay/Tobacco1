@@ -1,4 +1,7 @@
-package lab;
+package lab.Decorator;
+
+import lab.Decorator.Extra;
+import lab.Decorator.Tobachini;
 
 public class myata extends Extra {
     public myata(Tobachini tobachini, double price, String name){

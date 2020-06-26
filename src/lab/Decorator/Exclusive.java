@@ -1,4 +1,4 @@
-package lab;
+package lab.Decorator;
 
 public class Exclusive extends Extra {
     public Exclusive(Tobachini tobachini, double price, String name){
